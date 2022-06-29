@@ -16,10 +16,10 @@ window.onload = async () => {
 };
 
 const AddEnter = (event) => {
-  if(event.key === "Enter"){
+  if (event.key === "Enter") {
     addTask();
   }
-}
+};
 
 const addTask = async () => {
   if (!value) {
