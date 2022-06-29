@@ -1,0 +1,57 @@
+.main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    background-color: rgb(104, 88, 124);
+    min-height: 100vh;
+}
+body{
+    margin: 0;
+
+}
+
+.main_content{
+    width: auto;
+    padding: 50px;
+    border-radius: 25px;
+    background-color: rgb(223, 164, 0);
+}
+.task_container {
+    margin-top: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 224, 150);
+    color: black;
+    border-radius: 15px;
+    justify-content: space-around;
+}
+
+.text_task {
+    font-size: 18px;
+    color: black;
+    margin-left: 8px;
+
+}
+
+.done_task {
+    color: black;
+    text-decoration: line-through red;
+
+}
+.img_edit {
+    margin: 0;
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+}
+.img_close {
+    margin: 0;
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
