@@ -15,7 +15,7 @@ window.onload = async () => {
   render();
 };
 
-const AddEnter = (event) => {
+const addEnter = (event) => {
   if (event.key === "Enter") {
     addTask();
   }
