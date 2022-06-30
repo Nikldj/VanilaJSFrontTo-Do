@@ -120,7 +120,7 @@ const onChangeCheck = async (index) => {
   render();
 };
 
-const DeleteTask = async (index) => {
+const deleteTask = async (index) => {
   if (edit) {
     alert("Отредактируйте!");
     return;
@@ -142,7 +142,7 @@ const DeleteTask = async (index) => {
   render();
 };
 
-const EditTask = async (index) => {
+const editTask = async (index) => {
   const text = document.querySelectorAll(".text_task")[index];
   const input = document.createElement("input");
   const textReplace = document.createElement("p");
